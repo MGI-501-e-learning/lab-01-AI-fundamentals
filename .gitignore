@@ -1,0 +1,36 @@
+# macOS system files
+.DS_Store
+
+# Backup directory (do not publish)
+backup/
+backup/**
+
+# Keys and secrets
+*.key
+*.pem
+*.crt
+*.p12
+*.env
+.env.*
+secrets/
+keys/
+private/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Other common ignores
+*.swp
+*.swo
+.idea/
+*.bak
